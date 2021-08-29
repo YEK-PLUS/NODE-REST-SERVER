@@ -1,0 +1,56 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "EXPRESS.JS REST SERVER WITH MONGODB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=express:* nodemon index.js",
+    "preinstall": "sh scripts/setup.sh",
+    "test": "snyk test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:fix:dry": "eslint . --fix-dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YEK-PLUS/node-rest-server.git"
+  },
+  "keywords": [
+    "express.js",
+    "node",
+    "rest",
+    "api",
+    "restapi",
+    "mongodb"
+  ],
+  "author": "YEK-PLUS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YEK-PLUS/node-rest-server/issues"
+  },
+  "homepage": "https://github.com/YEK-PLUS/node-rest-server#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "girgir": "^1.0.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.0.0",
+    "morgan": "^1.10.0",
+    "multi-env-load": "^1.0.0",
+    "prom-client": "^13.2.0",
+    "rotating-file-stream": "^2.1.5",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.12"
+  }
+}

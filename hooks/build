@@ -1,0 +1,6 @@
+#!/bin/bash
+# --build-arg BIT_TOKEN=$BIT_TOKEN \
+# --build-arg GIT_TOKEN=$GIT_TOKEN \
+docker build \
+  -f $DOCKERFILE_PATH \
+  -t $IMAGE_NAME .
