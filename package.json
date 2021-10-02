@@ -31,18 +31,18 @@
   },
   "homepage": "https://github.com/YEK-PLUS/node-rest-server#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.22.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "girgir": "^1.0.1",
+    "girgir": "^2.0.0",
     "helmet": "^4.6.0",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.3.0",
-    "mongoose": "^6.0.0",
+    "mongoose": "^6.0.8",
     "morgan": "^1.10.0",
-    "multi-env-load": "^1.0.0",
-    "prom-client": "^13.2.0",
-    "rotating-file-stream": "^2.1.5",
+    "multi-env-load": "^1.1.0",
+    "prom-client": "^14.0.0",
+    "rotating-file-stream": "^2.1.6",
     "uuid": "^8.3.2",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.5"
@@ -51,6 +51,6 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.13"
   }
 }
